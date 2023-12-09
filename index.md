@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Graph thinness
 ---
 $
 \newcommand{\thin}{\mathsf{thin}}
