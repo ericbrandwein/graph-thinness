@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div style="display:none;">
 $
 \newcommand{\thin}{\mathsf{thin}}
 \newcommand{\pthin}{\mathsf{pthin}}
@@ -8,6 +9,7 @@ $
 \newcommand{\bw}{\mathsf{bw}}
 $
 
+</div>
 # Graph thinness
 ## Definitions
 - *Consistent solution*: Let $G$ be a graph. A *consistent solution for $G$ using $k$ classes* is a partition $S$ of $V(G)$ and an order $\prec$ on $V(G)$ such that for every $u,v,w \in V(G)$ with $u \prec v \prec w$, if $u$ and $v$ belong to the same class in $S$ and $(u,w) \in E(G)$, then $(v,w) \in E(G)$. {% cite thinness %}
