@@ -4,4 +4,4 @@ a linear layout realizing the bandwidth leads to a (strongly) consistent partiti
 into at most bandw($G$) classes. {% cite 2-thin-intersection-models %}
 
 # References
-{% bibliography %}
+{% bibliography --cited %}
